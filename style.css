@@ -143,12 +143,12 @@ html ::-webkit-scrollbar{
 }
 @media screen and (max-width:982px){
     #aboutus p{
-        font-size: 8px;
+        font-size: 12px;
     }
 }
 @media screen and (max-width:766px){
     #aboutus p{
-        font-size: 15px;
+        font-size: 9px;
     }
     #aboutus {
         height: 120vh;
@@ -235,6 +235,7 @@ html ::-webkit-scrollbar{
 #menu p span{
     float: right;
     transition: 0.5s;
+    cursor: pointer;
 }
 
 #menu p span:hover{
@@ -245,3 +246,55 @@ html ::-webkit-scrollbar{
 
 
 /* menu end */
+
+/* product section start */
+#product{
+    width: 100%;
+}
+.heading4{
+    color: #b2744c;
+    text-align: center;
+    border-bottom: #b2744c solid 2px;
+    font-size: 30px; 
+    font-weight: bold;
+    padding-top: 100px;
+}
+#container3{
+    margin-top: 30px;
+}
+#product h3{
+    color: #b2744c;
+    text-align: center;
+    font-size: 25px;
+}
+
+#product p{
+    color: #b2744c;
+    padding-top: 10px;
+}
+
+#product p span{
+    float: right;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#product p span:hover{
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+}
+
+@media screen and (max-width:982px){
+    #product h3{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:767px){
+    #product h3{
+        font-size: 25px;
+    }
+}
+
+/* product section end */

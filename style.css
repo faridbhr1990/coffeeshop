@@ -95,3 +95,61 @@ html ::-webkit-scrollbar{
     color: white;
 }
 /* home section start */
+
+
+
+
+/* about us section start */
+#aboutus{
+    width: 100%;
+    height: 100vh;
+}
+ #aboutus .container{
+    padding-top: 70px;
+ }
+ #aboutus .heading{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 50px;
+ }
+
+#aboutus .heading span{
+    color: #b2744c;
+}
+
+.card {
+    border-radius: 10px;
+}
+.card img{
+    border-radius: 10px;
+}
+#about-btn{
+    background-color: transparent;
+    color: #b2744c;
+    border-radius: 5px;
+    width: 200px;
+    height: 36px;
+    font-weight: bold;
+    border: 2px solid #b2744c;
+    transition: 0.5s;
+}
+#about-btn:hover{
+    background-color: #b2744c;
+    color: white;
+}
+@media screen and (max-width:982px){
+    #aboutus p{
+        font-size: 8px;
+    }
+}
+@media screen and (max-width:766px){
+    #aboutus p{
+        font-size: 15px;
+    }
+    #aboutus {
+        height: 120vh;
+    }
+}
+/* about us section end */

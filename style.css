@@ -165,27 +165,34 @@ html ::-webkit-scrollbar{
     height: 60vh;
     background-color: #f7f5f2;
 }
+
+#top-cards .heading2{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#top-cards .heading2 span{
+    color: #b2744c;
+}
+
 #top-cards .container{
     margin-top: 30px;
 }
-#top-cards .heading2{
-   color: black;
-   font-size: 30px;
-   font-weight: bold;
-   text-align: center;
-}
-#top-cards .heading2 span{
-   color: #b2744c;
-}
+
 #top-cards .card {
     border-radius: 10px;
     transition: 0.5s;
     cursor: pointer;
 }
+
 #top-cards .card img{
     border-radius: 10px;
+    
 }
-#top-cards .card :hover{
+
+#top-cards .card:hover {
     transform: translateY(-10px);
 }
 /* top cards end  */
